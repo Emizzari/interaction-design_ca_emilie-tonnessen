@@ -9,8 +9,9 @@ Light grey - #E9E9E9;
 Grey - #6A6A6A;
 
 --------------------------------------*/
-nav{
+.top-nav{
   background-color: #8B3E46;
+  box-shadow: 0px 0px 30px #6A6A6A;
 }
 
 .navigation{
@@ -53,7 +54,7 @@ nav{
   float: left;
   line-height: 60px;
   height: 40px;
-  margin: 10px;
+
 }
 
 label{
@@ -66,12 +67,12 @@ label{
   color: #FFFFFF;
 }
 
-#toggle{
+#nav-toggle{
   display: none;
 }
 
 
-/* NAVIGATION BREAKPOINT MOBILE/TABLET
+/* MOBILE/TABLET
 ------------------------------------------------------*/
 @media only screen and (max-width: 908px){
   label{
@@ -88,7 +89,7 @@ label{
 
   #logo img{
     height: 40px;
-    margin: 10px;
+   
   }
 
   .menu a{
@@ -99,14 +100,14 @@ label{
     padding: 0;
   }
 
-  #toggle:checked + .menu{
+  #nav-toggle:checked + .menu{
     display: block;
     overflow: hidden;
     position: relative;
   }
 }
 
-/* NAVIGATION BREAKPOINT FOR TABLET
+/* TABLET - HORIZONTAL
 ------------------------------------------------------*/
 @media only screen and (min-width: 909px) and (max-width: 1025px){
   .menu a{
@@ -121,11 +122,11 @@ label{
 
   #logo img{
     height: 45px;
-    margin: 12.5px;
+
   }
 }
 
-/* NAVIGATION BREAKPOINT FOR LAPTOP/DESKTOP
+/* LAPTOP/DESKTOP
 ------------------------------------------------------*/
 @media only screen and (min-width: 1026px){
   .menu a{
@@ -140,6 +141,6 @@ label{
 
   #logo img{
     height: 55px;
-    margin: 12.5px;
+ 
   }
 }
