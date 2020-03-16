@@ -29,5 +29,24 @@ font-family: 'Montserrat', sans-serif;
 @import url('footer.css');
 @import url('global.css');
 @import url('home.css');
+@import url('shoes.css');
 
 
+:root {
+  --primaryColor: #8B3E46;
+  --mainWhite: #fff;
+  --mainBlack: #000;
+  --mainGrey: #E9E9E9;
+  --mainSpacing: 0.1rem;
+  --mainTransition: all 0.3s linear;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  color: var(--mainBlack);
+  background: var(--mainWhite);
+  font-family: "Lato", sans-serif;
+}
