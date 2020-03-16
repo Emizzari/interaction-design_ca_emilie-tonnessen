@@ -1,4 +1,4 @@
-/* CSS MASTER STYLE SHEET:
+/* CSS GLOBAL STYLE SHEET:
 -------------------------------------- 
 
 COLOUR PALETTE:
@@ -21,9 +21,3 @@ Body
 font-family: 'Montserrat', sans-serif;
 
 --------------------------------------*/
-@import url('https://fonts.googleapis.com/css?family=Montserrat|Raleway:500&display=swap');
-
-@import url('nav.css');
-@import url('footer.css');
-
-@import url('global.css');
