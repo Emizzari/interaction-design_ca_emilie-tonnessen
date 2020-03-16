@@ -2,24 +2,23 @@
 -------------------------------------- 
 
 COLOUR PALETTE:
-Brown - #8B3E46;
-Dark brown - #532227;
-Light brown - #FF9B6E;
-Light grey - #E9E9E9;
-Grey - #6A6A6A;
+Brown (main) -    #8B3E46;
+Dark brown   -    #532227;
+Light brown  -    #FF9B6E;
+Light grey   -    #E9E9E9;
+Grey         -    #6A6A6A;
 
 --------------------------------------*/
 .top-nav{
   background-color: #8B3E46;
   box-shadow: 0px 0px 30px #6A6A6A;
-  
 }
 
 .navigation{
   position: sticky;
   position: -webkit-sticky;
   top: 0;
-  text-align: center;
+  text-align: right;
 }
 
 .menu{
@@ -27,31 +26,30 @@ Grey - #6A6A6A;
 }
 
 .menu a{
-  
   text-decoration: none;
   color: #FFFFFF;
 }
 
 #active{
-  border-bottom: 1px #FFF solid;
+  color: #FF9B6E;
+
 }
 
 .menu a:hover{
-  border-bottom: 1px #FFF solid;
-  transition: .2s;
+  color: #FF9B6E;
+  
 }
 
 .menu a:active{
-  border-bottom: 1px #FFF solid;
-  transition: .1s;
+  color: #FF9B6E;
 }
 
 #logo img{
   float: left;
-    display: block;
+  display: block;
 }
 
-label{
+.nav-label{
   margin: 0 40px 0 0;
   font-size: 26px;
   line-height: 60px;
@@ -61,22 +59,18 @@ label{
   color: #FFFFFF;
 }
 
-#nav-toggle{
+#toggle{
   display: none;
 }
 
-.menu a img{
-    height: 30px;
-    display: inline-block;
-}
 
-/* MOBILE/TABLET
-------------------------------------------------------
+
+/* HAMBURGER MENU
+------------------------------------------------------*/
 @media only screen and (max-width: 908px){
-  label{
+  .nav-label{
     display: block;
     cursor: pointer;
-    font-size: 30px;
   }
 
   .menu{
@@ -86,8 +80,8 @@ label{
   }
 
   #logo img{
-    height: 40px;
-   
+    height: 20px;
+    margin: 10px 0px;
   }
 
   .menu a{
@@ -98,19 +92,21 @@ label{
     padding: 0;
   }
 
-  #nav-toggle:checked + .menu{
+  #toggle:checked + .menu{
     display: block;
     overflow: hidden;
     position: relative;
   }
 }
 
-/* TABLET - HORIZONTAL
-------------------------------------------------------
+/* TABLET
+------------------------------------------------------*/
 @media only screen and (min-width: 909px) and (max-width: 1025px){
   .menu a{
-    font-size: 18px;
+    font-size: 18px;  
     line-height: 70px;
+    margin: 26px;
+    padding: 0px 2px 2px 2px;
   }
 
   .navigation{
@@ -120,7 +116,7 @@ label{
 
   #logo img{
     height: 45px;
-
+    margin: 12.5px 0px;
   }
 }
 
@@ -129,12 +125,10 @@ label{
 @media only screen and (min-width: 1026px){
   .menu a{
     font-size: 20px;
-    margin: 30px 20px;
+    line-height: 80px;
+    margin: 30px;
     padding: 0px 2px 2px 2px;
   }
-
-  
-
 
   #logo img{
     height: 55px;

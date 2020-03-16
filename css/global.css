@@ -2,13 +2,12 @@
 -------------------------------------- 
 
 COLOUR PALETTE:
-Brown - #8B3E46;
-Dark brown - #532227;
-Light brown - #FF9B6E;
-Light grey - #E9E9E9;
-Grey - #6A6A6A;
+Brown (main) -    #8B3E46;
+Dark brown   -    #532227;
+Light brown  -    #FF9B6E;
+Light grey   -    #E9E9E9;
+Grey         -    #6A6A6A;
 
---------------------------------------
 
 TYPOGRAPHY:
 Headline
@@ -33,13 +32,6 @@ h1{
 }
 
 
-.bgimage img{
-    width: 100%;
-    height: 100%;
-    display: block;
-    overflow: hidden;
-}
 
-.btn{
-    color: #fff;
-}
+
+
