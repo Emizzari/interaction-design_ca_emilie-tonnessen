@@ -9,3 +9,137 @@ Light grey - #E9E9E9;
 Grey - #6A6A6A;
 
 --------------------------------------*/
+nav{
+  background-color: #8B3E46;
+}
+
+.navigation{
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0;
+  text-align: right;
+  height: 60px;
+  line-height: 60px;
+  margin: 0;
+}
+
+.menu{
+  margin: 0 20px 0 0;
+}
+
+.menu a{
+  display: inline-block;
+  text-decoration: none;
+  padding: 0 10px;
+  line-height: 60px;
+  color: #FFFFFF;
+}
+
+#active{
+  border-bottom: 1px #FFF solid;
+}
+
+.menu a:hover{
+  border-bottom: 1px #FFF solid;
+  transition: .2s;
+}
+
+.menu a:active{
+  border-bottom: 1px #FFF solid;
+  transition: .1s;
+}
+
+#logo img{
+  float: left;
+  line-height: 60px;
+  height: 40px;
+  margin: 10px;
+}
+
+label{
+  margin: 0 40px 0 0;
+  font-size: 26px;
+  line-height: 60px;
+  display: none;
+  width: 26px;
+  float: right;
+  color: #FFFFFF;
+}
+
+#toggle{
+  display: none;
+}
+
+
+/* NAVIGATION BREAKPOINT MOBILE/TABLET
+------------------------------------------------------*/
+@media only screen and (max-width: 908px){
+  label{
+    display: block;
+    cursor: pointer;
+    font-size: 30px;
+  }
+
+  .menu{
+    text-align: center;
+    width: 100%;
+    display: none;
+  }
+
+  #logo img{
+    height: 40px;
+    margin: 10px;
+  }
+
+  .menu a{
+    display: block;
+    background: #8B3E46;
+    border-top: 1px solid #8B3E46;
+    margin: 0;
+    padding: 0;
+  }
+
+  #toggle:checked + .menu{
+    display: block;
+    overflow: hidden;
+    position: relative;
+  }
+}
+
+/* NAVIGATION BREAKPOINT FOR TABLET
+------------------------------------------------------*/
+@media only screen and (min-width: 909px) and (max-width: 1025px){
+  .menu a{
+    font-size: 18px;
+    line-height: 70px;
+  }
+
+  .navigation{
+    height: 70px;
+    line-height: 70px;
+  }
+
+  #logo img{
+    height: 45px;
+    margin: 12.5px;
+  }
+}
+
+/* NAVIGATION BREAKPOINT FOR LAPTOP/DESKTOP
+------------------------------------------------------*/
+@media only screen and (min-width: 1026px){
+  .menu a{
+    font-size: 20px;
+    line-height: 80px;
+  }
+
+  .navigation{
+    height: 80px;
+    line-height: 80px;
+  }
+
+  #logo img{
+    height: 55px;
+    margin: 12.5px;
+  }
+}
