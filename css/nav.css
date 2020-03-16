@@ -12,27 +12,23 @@ Grey - #6A6A6A;
 .top-nav{
   background-color: #8B3E46;
   box-shadow: 0px 0px 30px #6A6A6A;
+  
 }
 
 .navigation{
   position: sticky;
   position: -webkit-sticky;
   top: 0;
-  text-align: right;
-  height: 60px;
-  line-height: 60px;
-  margin: 0;
+  text-align: center;
 }
 
 .menu{
-  margin: 0 20px 0 0;
+  display: inline-block;
 }
 
 .menu a{
-  display: inline-block;
+  
   text-decoration: none;
-  padding: 0 10px;
-  line-height: 60px;
   color: #FFFFFF;
 }
 
@@ -52,9 +48,7 @@ Grey - #6A6A6A;
 
 #logo img{
   float: left;
-  line-height: 60px;
-  height: 40px;
-
+    display: block;
 }
 
 label{
@@ -71,9 +65,13 @@ label{
   display: none;
 }
 
+.menu a img{
+    height: 30px;
+    display: inline-block;
+}
 
 /* MOBILE/TABLET
-------------------------------------------------------*/
+------------------------------------------------------
 @media only screen and (max-width: 908px){
   label{
     display: block;
@@ -108,7 +106,7 @@ label{
 }
 
 /* TABLET - HORIZONTAL
-------------------------------------------------------*/
+------------------------------------------------------
 @media only screen and (min-width: 909px) and (max-width: 1025px){
   .menu a{
     font-size: 18px;
@@ -127,20 +125,21 @@ label{
 }
 
 /* LAPTOP/DESKTOP
-------------------------------------------------------*/
+------------------------------------------------------ */
 @media only screen and (min-width: 1026px){
   .menu a{
     font-size: 20px;
-    line-height: 80px;
+    margin: 30px 20px;
+    padding: 0px 2px 2px 2px;
   }
 
   .navigation{
-    height: 80px;
-    line-height: 80px;
+      
   }
+
 
   #logo img{
     height: 55px;
- 
+    margin: 12.5px 0px;
   }
 }
