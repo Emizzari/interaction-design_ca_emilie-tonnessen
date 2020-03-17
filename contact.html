@@ -13,20 +13,44 @@
 </head>
 
 <body>
-    <!-- NAVIGATION HERE ------------------------------------>
-    <nav class="top-nav">
-        <div id="logo"><a href="index.html"><img src="images/logo/logo-tr.png" alt="Logo"></a></div>
-        <label for="nav-toggle">&#9776;</label>
-        <input type="checkbox" id="nav-toggle" />
-        <div class="menu">
-            <a href="shoes.html">SHOES</a>
-            <a href="stores.html">STORES</a>
-            <a id="active" href="contact.html">CONTACT</a>
-            <a href="about.html">ABOUT</a>
+<!-- NAVIGATION HERE --------------------------------------------------->
+    <nav class="nav-bar">
+        <div class="navigation">
+
+            <!-- logo -->
+            <div class="logo">
+                <a href="index.html">
+                    <img src="images/logo/logo-tr.png" alt="Logo">
+                </a>
+            </div>
+
+            <!-- hamburger icon-->
+            <div class="hamburger-icon">
+                <label class="nav-label" for="nav-toggle">
+                    <i class="fas fas-bars"></i>
+                </label>
+                <input type="checkbox" id="toggle" />
+            </div>
+
+            <!-- menu items -->
+            <div class="menu">
+                <a  href="shoes.html">SHOES</a>
+                <a href="stores.html">STORES</a>
+                <a id="active" href="contact.html">CONTACT</a>
+                <a href="about.html">ABOUT</a>
+            </div>
+
+            <!-- shopping cart button -->
+            <div class="cart-btn">
+                <span class="nav-icon">
+                    <i class="fas fa-shopping-bag"></i>
+                </span>
+                <div class="cart-items">0</div>
+            </div>
+
         </div>
     </nav>
-
-
+<!-- end of Navigation ------------------------------------------------->
     <!-- HEADER HERE ------------------------------------->
     <header class="header__backgroud-image">
 
