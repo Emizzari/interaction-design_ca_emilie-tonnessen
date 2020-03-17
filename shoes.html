@@ -60,93 +60,90 @@
         </div>
     </nav>
 <!-- end of Navigation ------------------------------------------------->
+
+
+
 <!-- HEADER HERE ------------------------------------------------------->
-   
-
-
+    <header>
+        <h1>Shoes</h1>
+    </header>
 <!-- End of Header ----------------------------------------------------->
 
 
 
-
 <!-- Product section --------------------------------------------------->
-<section class="products">
-    <div class="section-title">
-        <h2>Our products</h2>
-    </div>
+    <section class="products">
+        <div class="section-title">
+            <h2>Our products</h2>
+        </div>
 
-    <div class="products-center">
-        <!-- single product -->
-        <article class="product">
+        <div class="products-center">
+            <!-- single product -->
+            <article class="product">
+                <div class="img-container">
+                    <img class="product-img" src="images/product-1.jpg" alt="product 1">
+                    <button class="bag-btn" data-id="1">
+                        <i class="fas fa-shopping-bag"></i>
+                        add to bag
+                    </button>
+                </div>
+                <h3>King Shoes</h3>
+                <h4>NOK 1299</h4>
+            </article>
+            <!-- end of single product -->
+        </div>
 
-            <div class="image-container">
-                <img class="product-img" src="images/product-1.jpg" alt="product 1">
-                <button class="bag-btn" data-id="1">
-                    <i class="fas fa-shopping-bag"></i>
-                    add to bag
-                </button>
-            </div>
-            <h3>King Shoes</h3>
-            <h4>NOK 1299</h4>
-        </article>
-        <!-- end of single product -->
-        <!-- single product -->
-        <article class="product">
-        
-            <div class="image-container">
-                <img class="product-img" src="images/product-1.jpg" alt="product 1">
-                <button class="bag-btn" data-id="1">
-                    <i class="fas fa-shopping-bag"></i>
-                    add to bag
-                </button>
-            </div>
-            <h3>King Shoes</h3>
-            <h4>NOK 1299</h4>
-        </article>
-        <!-- end of single product -->
-        <!-- single product -->
-        <article class="product">
-        
-            <div class="image-container">
-                <img class="product-img" src="images/product-1.jpg" alt="product 1">
-                <button class="bag-btn" data-id="1">
-                    <i class="fas fa-shopping-bag"></i>
-                    add to bag
-                </button>
-            </div>
-            <h3>King Shoes</h3>
-            <h4>NOK 1299</h4>
-        </article>
-        <!-- end of single product --><!-- single product -->
-        <article class="product">
-        
-            <div class="image-container">
-                <img class="product-img" src="images/product-1.jpg" alt="product 1">
-                <button class="bag-btn" data-id="1">
-                    <i class="fas fa-shopping-bag"></i>
-                    add to bag
-                </button>
-            </div>
-            <h3>King Shoes</h3>
-            <h4>NOK 1299</h4>
-        </article>
-        <!-- end of single product -->
-    </div>
-</SECTion>
+    </section>
 <!-- End of product section -------------------------------------------->
 
 
 
-<!-- FOOTER HERE ------------------------------------------------------->
-<footer>
+<!-- CART -------------------------------------------------------------->
+    <div class="cart-overlay">
+        <div class="cart">
+            <span class="close-cart">
+                <i class="fas fa-window-close"></i>
+            </span>
+            <h2>Your Cart</h2>
+            <div class="cart-content">
+                <!-- cart item -->
+                <div class="cart-item">
+                    <img src="images/product-1.jpg" alt="Product">
+                    <div>
+                        <h4>King Shoes</h4>
+                        <h5>NOK 1299</h5>
+                        <span class="remove-item">remove</span>
+                    </div>
+                    <div>
+                        <i class="fas fa-chevron-up"></i>
+                        <p class="item-amount">1</p>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                </div>
+                <!-- end of cart item -->
+            </div>
+            <div class="cart-footer">
+                <h3>
+                    Your Total : NOK <span class="cart-total">0</span> 
+                </h3>
+                <button class="clear-cart banner-btn">clear cart</button>
+            </div>
+        </div>
+    </div>
+<!-- End of Cart ------------------------------------------------------->
 
 
-</footer>
-<!-- end of Footer ----------------------------------------------------->
+
+<!-- FOOTER ------------------------------------------------------------>
+    <footer>
+
+
+    </footer>
+<!-- End of Footer ----------------------------------------------------->
 
 
 
-<!-- SCRIPTS HERE ------------------------------------------------------>
+<!-- SCRIPTS ----------------------------------------------------------->
 <script src="js/script.js"></script>
 <!-- end of script ----------------------------------------------------->
 </body>
