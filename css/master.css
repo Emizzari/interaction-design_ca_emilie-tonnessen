@@ -30,6 +30,7 @@ font-family: 'Montserrat', sans-serif;
 @import url('global.css');
 @import url('home.css');
 @import url('shoes.css');
+@import url('details.css');
 
 
 :root {
@@ -44,9 +45,4 @@ font-family: 'Montserrat', sans-serif;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-}
-body {
-  color: var(--mainBlack);
-  background: var(--mainWhite);
-  font-family: "Lato", sans-serif;
 }
