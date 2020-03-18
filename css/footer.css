@@ -9,3 +9,63 @@ Light grey - #E9E9E9;
 Grey - #6A6A6A;
 
 --------------------------------------*/
+.footer-container{
+    background-color: #8B3E46;
+    color: #FFFFFF;
+    display: block;
+}
+
+.footer-container a{
+    color: #FFF;
+    text-decoration: none;
+    margin-bottom: 3px;
+    padding-bottom: 2px;
+    clear: right;
+}
+
+.footer-container a:hover{
+    color: #FF9B6E;
+    border-bottom: 1px solid #FF9B6E;
+}
+
+.footer-container h5{
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.footer-container p{
+    margin-bottom: 5px;
+}
+
+.footer-social-media-icons a {
+    font-size: 30px;
+    padding: 0px 5px;
+}
+
+.footer-social-media-icons a:hover {
+    border-bottom: 0px solid #FFF;
+    color: #FF9B6E;
+}
+
+.footer-information{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+    grid-gap: 3em;
+    padding: 3em;
+}
+
+
+.footer-copyright{
+    background-color: #532227;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    padding: 1em;
+    grid-gap: 1em;
+    text-align: center;
+}
+
+.footer-copyright p {
+    margin: 0;
+}
+
