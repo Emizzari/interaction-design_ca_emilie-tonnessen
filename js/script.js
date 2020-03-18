@@ -43,9 +43,14 @@ shoes.forEach(function (shoe) {
 
 shoesContainer.innerHTML = newHTML;
 
+
+
+
 // local storage
 class Storage {
-
+    static saveProduct(products){
+        localStorage.setItem("products", JSON.stringify(products));
+    }
 }
 
 document.addEventListener("DOMContentLoaded", ()=>{
@@ -53,8 +58,12 @@ document.addEventListener("DOMContentLoaded", ()=>{
     const products = new Products();
 
     // get all products
-    shoe.getProducts().then(data => ui.displayProducts(data));
-})
+    products.getProducts().then(products => {
+        ui.displayProducts(products);
+        Storage.saveProduct(products);
+    });
+    
+});
 
 
 
