@@ -60,18 +60,37 @@
         </div>
     </nav>
 <!-- end of Navigation ------------------------------------------------->
-    <!-- HEADER HERE ------------------------------------->
-    <header class="header__backgroud-image">
 
 
+
+<!-- HEADER ------------------------------------------------------------>
+    <header class="contact-title">
+        <h1>send us an message</h1>
     </header>
+<!-- End of Header ----------------------------------------------------->
 
 
-    <!-- MAIN CONTENT HERE --------------------------------->
-    <main>
 
+<!-- CONTACT FORM ------------------------------------------------------>
+    <div class="contact-form">
+        <form action="">
+            <label for="fname">First Name</label>
+            <input type="text" id="fname" name="firstname" placeholder="Your first name..">
+            
+            <label for="lname">Last Name</label>
+            <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+          
+            <label for="email">Email</label>
+            <input type="text" id="email" name="email" placeholder="Your email..">
+         
+            <label for="subject">Message</label>
+            <textarea id="subject" name="subject" placeholder="What can we help you with?" style="height:200px"></textarea>
+            
+            <input onclick="contactFormAlert()" class="contact-btn" type="submit" value="send">
+        </form>
+    </div>
+<!-- End of Contact Form ----------------------------------------------->
 
-    </main>
 
 
 <!-- FOOTER ------------------------------------------------------------>
@@ -136,8 +155,8 @@
 
 
 <!-- SCRIPTS HERE ------------------------------------------------------>
-    <script src="js/shoes.js"></script>
-    <script src="js/script.js"></script>
+    <script src="js/alert.js"></script>
+
 <!-- end of script ----------------------------------------------------->
 </body>
 
