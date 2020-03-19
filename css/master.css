@@ -31,6 +31,7 @@ font-family: 'Montserrat', sans-serif;
 @import url('home.css');
 @import url('shoes.css');
 @import url('details.css');
+@import url('cart.css');
 
 
 :root {
