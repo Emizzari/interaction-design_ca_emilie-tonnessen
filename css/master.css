@@ -27,7 +27,7 @@ font-family: 'Montserrat', sans-serif;
 /* CSS */
 @import url('nav.css');
 @import url('footer.css');
-@import url('global.css');
+@import url('contact.css');
 @import url('home.css');
 @import url('shoes.css');
 @import url('details.css');
@@ -46,4 +46,23 @@ font-family: 'Montserrat', sans-serif;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1{
+    font-family: 'Raleway', sans-serif;
+    font-size: 2em;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+.bolder{
+    font-weight: bolder;
 }
