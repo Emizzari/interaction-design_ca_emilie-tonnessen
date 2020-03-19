@@ -1,0 +1,106 @@
+/* CSS CART STYLE SHEET:
+-------------------------------------- 
+
+COLOUR PALETTE:
+Brown - #8B3E46;
+Dark brown - #532227;
+Light brown - #FF9B6E;
+Light grey - #E9E9E9;
+Grey - #6A6A6A;
+
+--------------------------------------*/
+
+/* HEADER */
+.cart-title{
+    text-align: center;
+    margin: 2em;
+    text-transform: capitalize;
+    font-size: 25px;
+}
+
+
+
+/* SHOPPING CART CONTAINER */
+.shopping-cart{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+    grid-gap: 1em;
+    margin: 1em 1em 5em 1em;
+}
+
+.cart-img{
+    width: 100%;
+    
+}
+
+.cart-product{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+    grid-column: 1/3;
+    border: 1px solid #8B3E46;
+    padding: 1em;
+    grid-gap: 1em;
+}
+
+/* CART INFORMATION */
+.cart-info h2{
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+
+.cart-info h3{
+    font-size: 20px;
+    margin-bottom: 15px;
+    color: #8B3E46;
+}
+
+.cart-info h4{
+    margin-bottom: 15px;
+}
+
+.cart-info a{
+    margin-top: 5px;
+    color: #6A6A6A;
+    text-decoration: none;
+}
+
+.cart-info a:hover{
+    border-bottom: 1px solid #6A6A6A;
+}
+
+.cart-description{
+    margin-top: 30px;
+}
+
+.cart-description h4{
+    margin-bottom: 10px;
+}
+
+.cart-description-text{
+
+}
+
+
+
+
+/* PURCHASE SUMMARY */
+.summary{
+    align-self: center;
+    padding: 1em;
+}
+
+.summary h4{
+    text-transform: capitalize;
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+.summary p{
+    margin-bottom: 15px;
+    text-transform: capitalize;
+}
+
+.total{
+    font-size: 18px;
+    color: #8B3E46;
+}
