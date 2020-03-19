@@ -31,7 +31,11 @@ h1{
     font-size: 2em;
 }
 
+.bold{
+    font-weight: bold;
+}
 
-
-
+.bolder{
+    font-weight: bolder;
+}
 
