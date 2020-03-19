@@ -42,6 +42,8 @@ Grey - #6A6A6A;
     grid-gap: 1em;
 }
 
+
+
 /* CART INFORMATION */
 .cart-info h2{
     font-size: 30px;
@@ -75,11 +77,6 @@ Grey - #6A6A6A;
 .cart-description h4{
     margin-bottom: 10px;
 }
-
-.cart-description-text{
-
-}
-
 
 
 
