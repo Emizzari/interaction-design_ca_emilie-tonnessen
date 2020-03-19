@@ -30,7 +30,7 @@ shoes.forEach(function (shoe) {
                         <img class="product-img" src="${shoe.imageUrl}" alt="${shoe.name}">
                         <button class="bag-btn" data-id="${shoe.id}">
                             <i class="fas fa-shopping-bag"></i>
-                            add to bag
+                            details
                         </button>
                     </div>
                     <h3>${shoe.name}</h3>
