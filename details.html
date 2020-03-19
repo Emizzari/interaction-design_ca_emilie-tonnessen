@@ -71,17 +71,34 @@
 
 
 <!-- MAIN CONTENT ------------------------------------------------------>
-    <div class="detail-container">
+    <div class="details-product">
         
-            <img class="detail-img" src="https://images.unsplash.com/photo-1493054882428-e4c79a9bfa3b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1329&q=80" alt="Shoe Name">
+        <img class="details-img" src="https://images.unsplash.com/photo-1493054882428-e4c79a9bfa3b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1329&q=80" alt="Shoe Name">
         
-        <div class="product-details-information">
+        <div class="product-info">
             <h2>Hardy Hiker</h3>
             <h3>NOK 1199</h4>
-            <button class="btn">ADD TO CART</button>
-            <div class="product-details-description">
-                <h5>Description</h5>
-                <p class="detail-description">
+            
+            <div class="dropdown">
+                <span class="bold">Shoe Size:</span>
+                <select class="dropdown-select" name="shoe-size">
+                    <option value="41">41</option>
+                    <option value="42">42</option>
+                    <option value="43">43</option>
+                    <option value="44">44</option>
+                    <option value="45">45</option>
+                    <option value="46">46</option>
+                    <option value="47">47</option>
+                    <option value="48">48</option>
+                </select>
+            </div>
+
+            <button class="btn btn-cart" onclick="window.location.href='cart.html'">ADD TO CART</button>
+            
+
+            <div class="product-description">
+                <h4>Description</h4>
+                <p class="detail-description-text">
                     For those who enjoy the outdoors, the Hardy Hiker is for you. This trendy boot is made from strong, durable leather and
                     utilises the latest sole technology to ensure a comfortable fit. The boot is only available in brown leather. Whether
                     you wear it while exploring the city or heading into the hills, this boot is the perfect accessory for the rugged, chic
