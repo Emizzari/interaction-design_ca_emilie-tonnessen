@@ -1,4 +1,4 @@
-/* CSS STORES STYLE SHEET:
+/* CSS ABOUT STYLE SHEET:
 -------------------------------------- 
 
 COLOUR PALETTE:
@@ -10,10 +10,7 @@ Grey         -    #6A6A6A;
 
 -------------------------------------- */
 
-
-
-/* CONTAINER ------------------------- */
-.stores{
+.about{
     display: grid;
     grid-template-columns: 1fr;
     grid-gap: 2em;
@@ -22,7 +19,7 @@ Grey         -    #6A6A6A;
     margin-right: auto;
 }
 
-.location{
+.stories{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
     grid-gap: 1em;
@@ -31,7 +28,6 @@ Grey         -    #6A6A6A;
 
 
 /* IMAGES ---------------------------- */
-.store-img{
+.about-img{
     width: 100%;
 }
-

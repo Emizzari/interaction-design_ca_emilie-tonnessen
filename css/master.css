@@ -33,6 +33,7 @@ font-family: 'Montserrat', sans-serif;
 @import url('details.css');
 @import url('cart.css');
 @import url('stores.css');
+@import url('about.css');
 
 /* GLOBAL CSS */
 body{
@@ -58,7 +59,7 @@ body{
 /* HEADER -------------------------- */
 .header{
     text-align: center;
-    margin: 3em 0em 0em 0em;
+    margin: 3em 0em;
     text-transform: capitalize;
     font-size: 20px;
     letter-spacing: 0.1rem;
