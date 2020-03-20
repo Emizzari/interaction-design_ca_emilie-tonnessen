@@ -1,0 +1,24 @@
+/* CSS STORES STYLE SHEET:
+-------------------------------------- 
+
+COLOUR PALETTE:
+Brown (main) -    #8B3E46;
+Dark brown   -    #532227;
+Light brown  -    #FF9B6E;
+Light grey   -    #E9E9E9;
+Grey         -    #6A6A6A;
+
+-------------------------------------- */
+
+/* CONTAINER ------------------------- */
+.stores{
+    display: grid;
+    grid-template-columns: 1fr;
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* End of Container ------------------ */
+
+/* ----------------------------------- */

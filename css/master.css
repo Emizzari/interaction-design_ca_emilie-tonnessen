@@ -2,11 +2,11 @@
 -------------------------------------- 
 
 COLOUR PALETTE:
-Brown - #8B3E46;
-Dark brown - #532227;
-Light brown - #FF9B6E;
-Light grey - #E9E9E9;
-Grey - #6A6A6A;
+Brown (main) -    #8B3E46;
+Dark brown   -    #532227;
+Light brown  -    #FF9B6E;
+Light grey   -    #E9E9E9;
+Grey         -    #6A6A6A;
 
 --------------------------------------
 
@@ -32,33 +32,18 @@ font-family: 'Montserrat', sans-serif;
 @import url('shoes.css');
 @import url('details.css');
 @import url('cart.css');
+@import url('stores.css');
 
-
-:root {
-  --primaryColor: #8B3E46;
-  --mainWhite: #fff;
-  --mainBlack: #000;
-  --mainGrey: #E9E9E9;
-  --mainSpacing: 0.1rem;
-  --mainTransition: all 0.3s linear;
-}
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
+/* GLOBAL CSS */
 body{
     margin: 0;
     padding: 0;
     font-family: 'Montserrat', sans-serif;
 }
 
-h1{
-    font-family: 'Raleway', sans-serif;
-    font-size: 2em;
-}
 
+
+/* FONT - WEIGHT ------------------- */
 .bold{
     font-weight: bold;
 }
@@ -66,3 +51,41 @@ h1{
 .bolder{
     font-weight: bolder;
 }
+/* End of Font - Weight ------------ */
+
+
+
+/* HEADER -------------------------- */
+.header{
+    text-align: center;
+    margin: 3em 0em 0em 0em;
+    text-transform: capitalize;
+    font-size: 20px;
+    letter-spacing: 0.1rem;
+}
+
+.header-title{
+  margin: 0;
+}
+/* End of Header ------------------- */
+
+
+
+/* BUTTON ---------------------------*/
+.btn{
+  padding: 1rem 3rem;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 1rem;
+  background: #8B3E46;
+  color: #FFF;
+  border: 1px solid #8B3E46;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.btn:hover{
+    background-color: transparent;
+    color:  #8B3E46;
+}
+/* End of Button ------------------- */

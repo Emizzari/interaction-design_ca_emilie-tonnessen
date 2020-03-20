@@ -10,39 +10,28 @@ Grey         -    #6A6A6A;
 
 --------------------------------------*/
 
-/* --------------- Hero ---------------- */
-.hero {
+
+/* HEADER ---------------------------------- */
+.home-banner {
   min-height: calc(100vh - 60px);
   background: url("../images/header-home.jpg") center/cover no-repeat;
   display: flex;
   align-items: center;
   justify-content: center;
 }
+
 .banner {
   text-align: center;
   background: rgba(255, 255, 255, 0.8);
   display: inline-block;
   padding: 2rem;
 }
+
 .banner-title {
   font-size: 3.4rem;
   text-transform: uppercase;
   letter-spacing: 8px;
   margin-bottom: 3rem;
 }
-.banner-btn {
-  padding: 1rem 3rem;
-  text-transform: uppercase;
-  letter-spacing: 2px;
-  font-size: 1rem;
-  background: #8B3E46;
-  color: #FFF;
-  border: 1px solid #8B3E46;
-  transition: 0.3s;
-  cursor: pointer;
-}
-.banner-btn:hover {
-  background: transparent;
-  color:  #8B3E46;
-}
-/* --------------- End of Hero ---------------- */
+
+/* End of Header --------------------------- */

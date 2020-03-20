@@ -10,14 +10,15 @@ Grey - #6A6A6A;
 
 --------------------------------------*/
 
-/* Container */
+/* CONTAINER ----------------------- */
 .details-product{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
     margin: 4em;
 }
 
-/* Image */
+
+/* IMAGE -------------------------- */
 .details-img{
     max-width: 100%;
     margin: 2em;
@@ -25,18 +26,20 @@ Grey - #6A6A6A;
 }
 
 
-/* Information about the product */
+/* INFORMATION -------------------- */
 .product-info{
     padding: 2em;
 }
 
-/* Title */
+
+/* TITLE -------------------------- */
 .product-info h2{
     font-size: 35px;
     margin-bottom: 15px;
 }
 
-/* Price */
+
+/* PRICE -------------------------- */
 .product-info h3{
     font-size: 20px;
     color: #8B3E46;
@@ -44,12 +47,8 @@ Grey - #6A6A6A;
 }
 
 
-
-
-/* Dop down menu */
+/* DROP DOWN MENU ------------------ */
 .dropdown{
- 
-  font-family: 'Montserrat', sans-serif;
   margin: 15px 0px;
 }
 
@@ -60,18 +59,14 @@ Grey - #6A6A6A;
   margin-left: 5px;
   background-color: #FFF;
   border-color: #8B3E46;
+  font-family: 'Montserrat', sans-serif;
 }
 
-.dropdown select option:hover{
-    background: #8B3E46;
-    color: #FFF;
-}
+/* End of Drop Down Menu ----------- */
 
 
 
-
-
-/* Description */
+/* DESCRIPTION --------------------- */
 .product-description h4{
     font-size: 20x;
     margin-bottom: 10px;
@@ -82,30 +77,4 @@ Grey - #6A6A6A;
     font-size: 16px;
     max-width: 500px;
 }
-/* End of Description */
-
-
-
-
-/* BUTTON */
-.btn{
-  padding: 1rem 3rem;
-  text-transform: uppercase;
-  letter-spacing: 2px;
-  font-size: 1rem;
-  background: #8B3E46;
-  color: #FFF;
-  border: 1px solid #8B3E46;
-  transition: 0.3s;
-  cursor: pointer;
-}
-
-.btn:hover{
-    background-color: transparent;
-    color:  #8B3E46;
-}
-
-
-
-
-/* End of Button */
+/* End of Description -------------- */
